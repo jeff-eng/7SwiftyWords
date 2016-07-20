@@ -86,6 +86,15 @@ class ViewController: UIViewController {
     }
 
     @IBAction func clearTapped(sender: AnyObject) {
+        currentAnswer.text = ""
+        
+        //currently, there is an array that holds all the buttons that were tapped(which is being stored in activatedButtons array). We need to loop through that array in order to change the hidden property to false to unhide those buttons.
+        for btn in activatedButtons {
+            btn.hidden = false
+        }
+        
+        //clear the activatedButtons array using the removeAll array method
+        activatedButtons.removeAll()
     }
  
     func letterTapped(btn: UIButton) {
