@@ -22,7 +22,13 @@ class ViewController: UIViewController {
     //array to store the possible solutions
     var solutions = [String]()
     
-    var score = 0
+    // Initialize score to zero and use property observer to update score label whenever score has changed
+    var score: Int = 0 {
+        didSet {
+            scoreLabel.text = "Score: \(score)"
+        }
+    }
+    
     var level = 1
     
     override func viewDidLoad() {
