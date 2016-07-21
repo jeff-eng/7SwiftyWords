@@ -19,10 +19,10 @@ Repo following Project 8 tutorial on www.hackingwithswift.com building a word-gu
     ```  
 * Property observers
   * Example from project:
-    ```swift
-    var score: Int = 0 {
-      didSet {
-        scoreLabel.text = "Score: \(score)"
+    ```
+      var score: Int = 0 {
+        didSet {
+          scoreLabel.text = "Score: \(score)"
       }
     }
     ```
@@ -38,11 +38,13 @@ Repo following Project 8 tutorial on www.hackingwithswift.com building a word-gu
 * Half-open Range operator within for-in loop
   * Goes through range only but does not include upper limit value
   * Example from project:
-    ```swift
+
+    ```
       for i in 0..<letterBits.count {
         //do stuff here...
       }
     ```
+
 * Modulo operator ```%```
 
 ## Attributions
