@@ -27,7 +27,7 @@ Repo following Project 8 tutorial on www.hackingwithswift.com building a word-gu
       }
     }
     ```
-    
+
 * ```.addTarget()``` method
   * The code equivalent of Ctrl-dragging in Xcode storyboards to add an action.
 * More use of ```pathForResource()``` method and ```String```'s ```contentsOfFile``` which was previously introduced in the Word Scramble game.
@@ -50,4 +50,4 @@ Repo following Project 8 tutorial on www.hackingwithswift.com building a word-gu
 * Modulo operator ```%```
 
 ## Attributions
-[](https://www.hackingwithswift.com/read/8/overview)
+[Project 5 Tutorial: 7 Swifty Words @ hackingwithswift.com](https://www.hackingwithswift.com/read/8/overview)
