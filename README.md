@@ -19,6 +19,7 @@ Repo following Project 8 tutorial on www.hackingwithswift.com building a word-gu
     ```  
 * Property observers
   * Example from project:
+
     ```
       var score: Int = 0 {
         didSet {
@@ -26,6 +27,7 @@ Repo following Project 8 tutorial on www.hackingwithswift.com building a word-gu
       }
     }
     ```
+    
 * ```.addTarget()``` method
   * The code equivalent of Ctrl-dragging in Xcode storyboards to add an action.
 * More use of ```pathForResource()``` method and ```String```'s ```contentsOfFile``` which was previously introduced in the Word Scramble game.
